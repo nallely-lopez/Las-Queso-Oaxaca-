@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 import { headers } from 'next/headers' // added
 import './globals.css';
 import ContextProvider from '@/context'
-import { ChakraProvider } from "@chakra-ui/react";
 
 export const metadata: Metadata = {
   title: "AppKit in Next.js + wagmi",
@@ -22,10 +21,8 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* Passing a dummy `value` prop to satisfy an unexpected type requirement in ChakraProvider props */}
-        <ChakraProvider value={undefined as any}>
           <ContextProvider cookies={cookies}>{children}</ContextProvider>
-        </ChakraProvider>
+        
       </body>
     </html>
   );
