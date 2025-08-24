@@ -22,7 +22,8 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ChakraProvider>
+        {/* Passing a dummy `value` prop to satisfy an unexpected type requirement in ChakraProvider props */}
+        <ChakraProvider value={undefined as any}>
           <ContextProvider cookies={cookies}>{children}</ContextProvider>
         </ChakraProvider>
       </body>
