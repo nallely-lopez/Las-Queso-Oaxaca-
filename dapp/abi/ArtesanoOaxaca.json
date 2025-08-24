@@ -1,0 +1,608 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_nombre",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_producto",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_descripcion",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_precioArtesano",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "_precioPublico",
+				"type": "int256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_idArtesano",
+				"type": "uint256"
+			}
+		],
+		"name": "altaArtesania",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "producto",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "descripcion",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "precioArtesano",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "precioPublico",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "idArtesano",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ArtesanoOaxaca.Artesania",
+				"name": "inputArtesania",
+				"type": "tuple"
+			}
+		],
+		"name": "altaArtesania",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_nombre",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_producto",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_descripcion",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "_precioArtesano",
+				"type": "int256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_idArtesano",
+				"type": "uint256"
+			}
+		],
+		"name": "altaArtesaniaConCalculo",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lugarOrigen",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "telefono",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "producto",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "descripcion",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "DireccionA",
+						"type": "address"
+					}
+				],
+				"internalType": "struct ArtesanoOaxaca.Artesano",
+				"name": "inputArtesano",
+				"type": "tuple"
+			}
+		],
+		"name": "altaArtesano",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_nombre",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_lugarOrigen",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_telefono",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_producto",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_descripcion",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "_direccionA",
+				"type": "address"
+			}
+		],
+		"name": "altaArtesano",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "artesania",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "nombre",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "producto",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "descripcion",
+				"type": "string"
+			},
+			{
+				"internalType": "int256",
+				"name": "precioArtesano",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "precioPublico",
+				"type": "int256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "idArtesano",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "artesanos",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "nombre",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "lugarOrigen",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "telefono",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "producto",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "descripcion",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "DireccionA",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "idArtesania",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "idArtesano",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "listarArtesanias",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "producto",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "descripcion",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "precioArtesano",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "precioPublico",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "idArtesano",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ArtesanoOaxaca.Artesania[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "listarArtesanos",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lugarOrigen",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "telefono",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "producto",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "descripcion",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "DireccionA",
+						"type": "address"
+					}
+				],
+				"internalType": "struct ArtesanoOaxaca.Artesano[]",
+				"name": "",
+				"type": "tuple[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_nombre",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_lugarOrigen",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_telefono",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_producto",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_descripcion",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "_direccionA",
+				"type": "address"
+			}
+		],
+		"name": "modificarArtesano",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "int256",
+				"name": "_nuevoPrecioArtesano",
+				"type": "int256"
+			}
+		],
+		"name": "modificarPrecioArtesania",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "verArtesania",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "producto",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "descripcion",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "precioArtesano",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "precioPublico",
+						"type": "int256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "idArtesano",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ArtesanoOaxaca.Artesania",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "verArtesano",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lugarOrigen",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "telefono",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "producto",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "descripcion",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "DireccionA",
+						"type": "address"
+					}
+				],
+				"internalType": "struct ArtesanoOaxaca.Artesano",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
