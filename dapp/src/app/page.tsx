@@ -104,7 +104,7 @@ export default function Home() {
     <div className="marketplace-container">
       {/* Header */}
       <header className="marketplace-header">
-        <Image src="/reown.svg" alt="Reown" width={120} height={120} priority />
+        
         <h1>ESENCIA</h1>
         <div className="header-actions">
           <ConnectButton />
