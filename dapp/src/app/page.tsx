@@ -6,7 +6,7 @@ import { ConnectButton } from "@/components/ConnectButton";
 import { InfoList } from "@/components/InfoList";
 import { ActionButtonList } from "@/components/ActionButtonList";
 
-import Image from 'next/image';
+import Img from 'next/image';
 
 // Sample product data
 const products = [
@@ -120,7 +120,8 @@ export default function Home() {
             <div 
               key={product.id} 
               className="product-card"
-              onClick={() => handleProductClick(product.id)}
+              //onClick={() => handleProductClick(product.id)}
+              onClick={() => console.log("clicked")} // Placeholder for navigation)}
             >
               <div className="product-image-container">
                 <img
