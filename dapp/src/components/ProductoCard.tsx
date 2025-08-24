@@ -1,7 +1,7 @@
 "use client"
 
-import { Card, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "./Card"
+import { Button } from "./Button"
 import { ChevronDown, ChevronUp } from "lucide-react"
 
 export function ProductCard({
